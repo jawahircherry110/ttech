@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+body {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+   
+  }
+  .main{
+    background-color: #FF597B;
+    height: 100vh;
+    }
+ 
+  .heading1{
+    
+    font-size: 70px;
+    color: rgb(17, 1, 1);
+   
+
+  }
+  .second_img{
+    width: 20%;
+    height: 120px;
+  }
+  .heading2{
+    margin-top: 30%;
+    margin-left: 40px;
+  }
+  .admission_form{
+    margin-top: 50px;
+  }
+ .name input{
+  border-radius: 10px;
+  width: 20%;
+ }
+ .text_area{
+  width: 20%;
+  height: 120px;
+  border-radius: 25px;
+  border:  1 px solid blue;
+ }
+ #submit{
+  position: relative;
+  width: 12%;
+  left: 2%;
+ }
+
+
+
+
+ .footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin: 20px 0;
+}
+
+.social-media a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+}
+.form_deg{
+  padding-top: 200px;
+
+}
+.label_deg{
+  display: inline-block;
+  color: skyblue;
+  width: 100px;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+  @media only screen and (max-width: 800px) {
+    .first_img {
+      display: none;
+    }
+  }
